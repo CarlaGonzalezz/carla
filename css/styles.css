@@ -161,25 +161,25 @@ p {
   }
 
   .profile-img img {
-      width: 100px; 
-      height: 100px;
-      padding-left: 50px; 
+      width: 150px; 
+      height: 150px;
+      padding-left: 30px; 
       margin: 0 auto; 
   }
 
   .sitename {
-      font-size: 1.2rem; 
+      font-size: 1.7rem; 
       padding-left: 0;
       text-align: center; 
   }
 
   .social-links a {
-      font-size: 1rem; 
-      margin: 0 0.3rem;
+      font-size: 1.2rem; 
+      margin: 0 0.2rem;
   }
 
   .navmenu ul li a {
-      font-size: 0.9rem;
+      font-size: 1.2rem;
   }
 
   .header-toggle {
@@ -357,7 +357,7 @@ p {
   }
 
   .about img {
-    margin-bottom: 00px;
+    display: none;
   }
 
   .about .content {
@@ -365,6 +365,7 @@ p {
   }
 
   .about .section-title p {
+    font-size: 1.3rem;
     text-align: center;
   }
 
@@ -386,7 +387,7 @@ p {
   text-align: end;
   margin-right: 20px;
   margin-bottom: 20px;
-  color: #f7ebfd;
+  color: #ffff;
 }
 
 .skills .section-title p {
@@ -394,7 +395,7 @@ p {
   text-align: center;
   margin-bottom: 40px;
   margin-left: 20px;
-  color: #dfd4f7;
+  color: #ffff;
 }
 
 .skills .skills-content {
