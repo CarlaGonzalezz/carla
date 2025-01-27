@@ -19,10 +19,9 @@
 }
 
 body {
-    color: var(--color-primary-text);
     font-family: 'Poppins', sans-serif;
     transition: margin-left 0.3s ease;
-    margin: 0px 0px 0px 250px;
+    margin: 0px -1px 0px 249px;
 }
 
 .menu-collapsed body {
@@ -42,8 +41,7 @@ h2 {
 }
 
 p {
-  font-size: 1.3rem;
-    color: var(--color-secondary-text);
+    font-size: 1.3rem;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -168,17 +166,20 @@ p {
   }
 
   .sitename {
+      color: #ffffff;
       font-size: 1.7rem; 
       padding-left: 0;
       text-align: center; 
   }
 
   .social-links a {
+      color: #FFFFFF;
       font-size: 1.2rem; 
       margin: 0 0.2rem;
   }
 
   .navmenu ul li a {
+      color: #ffffff;
       font-size: 1.2rem;
   }
 
@@ -195,6 +196,7 @@ p {
 
 /*seccion hero*/
 .hero {
+  margin-bottom: -1px;
     position: relative;
     min-height: 100vh;
     display: flex;
@@ -270,23 +272,24 @@ p {
 
 /* seccion about us */
 .about {
-  background-color: #f7f4f7; 
-  padding: 20px 0;
+  margin-bottom: -1px;
+  background-color: #24252a; 
+  padding: 1px 0;
 }
 
 .about .section-title h2 {
   font-size: 2.5rem; 
   font-weight: 500;
   text-align: left;
-  margin-left: 5px;
+  margin-left: 15px;
   margin-bottom: 20px;
   color: #bb949d;
 }
 
 .about .section-title p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: end;
-  color: #555;
+  color: #ffff;
   margin-right: 10px;
   margin-bottom: 20px;
 }
@@ -315,11 +318,12 @@ p {
 }
 
 .about .content p {
-  color: #333;
+  color: #ffffff;
   line-height: 1.7;
 }
 
 .about ul {
+  color: thistle;
   list-style: none;
   padding: 0;
 }
@@ -330,7 +334,7 @@ p {
 }
 
 .about ul li i {
-  color: #311b2b;
+  color: #525252;
   margin-right: 10px;
 }
 
@@ -376,8 +380,8 @@ p {
 
 /* seccion skills*/
 .skills {
-  padding: 20px 0;
-  background-color: #4e4e51;
+  padding: 8px 0;
+  background-color: #24252a;
   color: #f7ebfd;
 }
 
@@ -387,7 +391,7 @@ p {
   text-align: end;
   margin-right: 20px;
   margin-bottom: 20px;
-  color: #ffff;
+  color: #ad8a93;
 }
 
 .skills .section-title p {
